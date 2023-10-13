@@ -1,0 +1,79 @@
+.chart_wrap{  
+  clear: none;
+  float: none;
+  /*background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(232, 232, 232, 0.37));*/
+}
+.chart_wrap .chart{
+  
+  overflow: hidden;
+  margin-left: -30px;
+  padding: 50px 30px 60px;
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+}
+.chart_wrap .chart .movichart_wap{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.chart_wrap .chart .movichart_wap .ta_wrap{
+  
+  display: inline-flex;
+}
+.chart_wrap .chart .movichart_wap .ta_wrap h3{
+  height: auto;
+  margin: 0;
+  line-height: 1em;
+  background-image: none;
+}
+.chart_wrap .chart .movichart_wap .ta_wrap h3 ~ h3{
+  position: relative;
+  margin-left: 32px;
+}
+.chart_wrap .chart .movichart_wap .ta_wrap h3 ~ h3::before{
+  content: '';
+  display: block;
+  position: absolute;
+  left: -16px;
+  top: 50%;
+  width: 1px;
+  height: 14px;
+  margin-top: -7px;
+  background-color: #d8d8d8;
+}
+.chart_wrap .chart .movichart_wap .ta_wrap h3 a.active{
+  
+  font-weight: 700;
+  color: #222;
+}
+.chart_wrap .chart .movichart_wap .ta_wrap h3 a{
+  font-weight: 400;
+  font-size: 26px;
+  color: #666;
+  line-height: 1.423em;
+}
+.chart_wrap .chart .movichart_wap .cgvmovie_all{
+  padding: 4px 32px 4px 15px;
+  font-size: 14px;
+  color: #222;
+  line-height: 1.429em;
+  background: transparent url(../img/ri.png) calc(100% - 7px) center/15px 15px scroll no-repeat;
+  border: 1px solid #e2e2e2;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.05);
+  left: 630px;
+  position: relative;
+  align-items: center;
+  display: flex;
+}
+.giftcon_list_wrap > li ~ li{
+  margin-left: 25px;
+}
+.giftcon_list dt .btn_more{
+  
+}
+
+
